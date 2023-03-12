@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Login from "../lib/Login.svelte";
+  export let data;
 </script>
 
-<div>
-  <Login />
-</div>
+<h1>
+  {data?.user?.username}
+</h1>
