@@ -1,1 +1,8 @@
-<h1>HALLO ICH BIN EINE PROTECTED ROUTE</h1>
+<script lang="ts">
+  export let data;
+</script>
+
+<h1>
+  ok
+  {data?.user?.username}
+</h1>

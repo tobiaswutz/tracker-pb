@@ -1,11 +1,10 @@
 <script>
+	import Navbar from '$lib/components/Navbar.svelte';
 	import '../app.postcss';
+	export let data;
+	
 </script>
 
-<div>
-	<form action="/logout" method="POST">
-		<button>logout</button>
-	</form>
-</div>
 
+<Navbar user={data.user} />
 <slot />

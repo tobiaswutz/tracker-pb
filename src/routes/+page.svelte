@@ -1,7 +1,6 @@
 <script lang="ts">
-  export let data;
+  export let data: any;
 </script>
 
-<h1>
-  {data?.user?.username}
-</h1>
+
+<h1>DASHBOARD</h1>
